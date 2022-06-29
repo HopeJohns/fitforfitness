@@ -1,0 +1,57 @@
+html {
+  background-image: url(gym.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Georgia, serif;
+}
+
+nav ul {
+  background-color: turquoise;
+  background-size: cover;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  background-color: turquoise;
+  color: navy;
+  font-size: 30px;
+  padding-left: 300px;
+}
+
+img {
+  display: inline;
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  font-variant: small-caps;
+  color: turquoise;
+  font-size: 70px;
+}
+
+p {
+  color: turquoise;
+  text-align: center;
+  font-size: 40px;
+}
+
+table {
+  background-color: lightgray;
+  background-position: center;
+  margin: 50px 10px 10px 300px;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+}
+
+table td {
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+form {
+  background-color: lightgray;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FfFFC Classes</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="info.html">Information</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form class="signUp" action="thankyou.html" method="get">
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="fName">First Name:</label>
+          <input autofocus type="text" name="fName" id="fName" required placeholder="First Name">
+        <label for="lName">Last Name:</label>
+          <input type="text" name="lName" id="lName" required placeholder="Last Name">
+        <label for="email">Email:</label>
+          <input type="text" name="email" id="email" required placeholder="Email">
+        <label for="phone">Phone:</label>
+          <input type="text" name="phone" id="phone" required placeholder="Phone">
+        <label for="prefComm">Preferred method of communication:</label>
+          <select class="prefComm" name="prefComm">
+            <option value="call">Phone Call</option>
+            <option value="text">Text Message</option>
+            <option value="email">Email</option>
+            <option value="owl">Owl</option>
+            <option value="pigeon">Pigeon</option>
+            <option value="smoke">Smoke Signals</option>
+            <option value="morse">Morse Code</option>
+            <option value="batman">Bat Signal</option>
+          </select>
+      </fieldset>
+      <fieldset>
+        <legend>Class Preferences</legend>
+        <label for="crossT">Cross Training</label>
+          <input type="checkbox" name="crosstrain" id="crosstrain" value="yes">
+        <label for="sprint">Sprint</label>
+          <input type="checkbox" name="sprint" id="sprint" value="yes">
+        <label for="spin">Spin</label>
+          <input type="checkbox" name="spin" id="spin" value="yes">
+        <label for="bodyP">BodyPump</label>
+          <input type="checkbox" name="bodyP" id="bodyP" value="yes">
+        <label for="bodyC">BodyCombat</label>
+          <input type="checkbox" name="bodyC" id="bodyC" value="yes">
+        <label for="step">Step Interval</label>
+          <input type="checkbox" name="step" id="step" value="yes">
+        <label for="advCT">Advanced Cross Training</label>
+          <input type="checkbox" name="advCT" id="advCT" value="yes">
+        <label for="mixx">MixxedFIT</label>
+          <input type="checkbox" name="mixx" id="mixx" value="yes">
+        <label for="zumba">Zumba</label>
+          <input type="checkbox" name="zumba" id="zumba" value="yes">
+        <label for="time">AM</label>
+          <input type="radio" name="time" id="AM" value="AM">
+        <label for="time">PM</label>
+          <input type="radio" name="time" id="PM" value="PM">
+      </fieldset>
+      <input class="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
